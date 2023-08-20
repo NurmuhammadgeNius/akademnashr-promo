@@ -1,0 +1,76 @@
+.nav-link {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.signin {
+  background-color: #FF7500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #252420;
+}
+
+.texts {
+  color: white;
+}
+
+.python-book {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.about-pbook {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.order {
+  background-color: #FF7500;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.why-akademnashr {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.why-akademnashr-p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.sale {
+  background-color: #252420;
+}
+
+.sale-h2 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.sale-p {
+  font-size: 16px;
+}
+
+.footer-link {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}

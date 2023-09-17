@@ -1,6 +1,23 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2, h3 {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+}
+
 .nav-link {
   font-size: 13px;
   letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
 }
 
 .signin {
@@ -21,12 +38,16 @@
 .python-book {
   font-size: 40px;
   font-weight: bold;
-  letter-spacing: 0.5px;
 }
 
 .about-pbook {
   font-size: 16px;
-  letter-spacing: 0.5px;
+}
+
+.hr {
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
 }
 
 .order {
@@ -35,24 +56,30 @@
   text-decoration: none;
   font-size: 13px;
   font-weight: bold;
-  letter-spacing: 0.5px;
 }
 
 .why-akademnashr {
   font-size: 72px;
   font-weight: bold;
-  letter-spacing: 0.5px;
+}
+
+.why-akdemnshar-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: #FFE3CC33;
 }
 
 h3 {
   font-size: 24px;
   font-weight: bold;
-  letter-spacing: 0.5px;
 }
 
 .why-akademnashr-p {
   font-size: 16px;
-  letter-spacing: 0.5px;
+}
+
+.span {
+  color: #FF7500;
 }
 
 .sale {
@@ -62,7 +89,6 @@ h3 {
 .sale-h2 {
   font-size: 40px;
   font-weight: bold;
-  letter-spacing: 0.5px;
 }
 
 .sale-p {
@@ -73,4 +99,5 @@ h3 {
   color: black;
   text-decoration: none;
   font-size: 16px;
+  line-height: 19px;
 }

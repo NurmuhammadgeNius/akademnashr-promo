@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -24,7 +26,7 @@
     <main>
       <section class="hero">
         <div class="texts">
-          <hr>
+          <hr class="hr">
           <h2 class="python-book">Pythonda dasturlash asoslari</h2>
           <p class="about-pbook">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. <br> Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, <br>ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
           <a href="#" class="order">Buyurtma berish</a>
@@ -33,21 +35,21 @@
         <img src="img/python-book.jpg" alt="python kitob rasm" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
       </section>
       <section>
-        <hr>
+        <hr class="hr">
         <h2 class="why-akademnashr">Nega aynan <br>Akademnashr</h2>
         <ul>
           <li>
-            <img src="img/ico-cursor-click.svg" alt="kursor" width="56" height="56">
+            <div class="why-akdemnshar-icon-wrapper"><img src="img/ico-cursor-click.svg" alt="kursor" width="56" height="56"></div>
             <h3>Oson buyurtma qilish</h3>
             <p class="why-akademnashr-p">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
           </li>
           <li>
-            <img src="img/ico-sparkles.svg" alt="ico-sparkles" width="56" height="56">
+            <div class="why-akdemnshar-icon-wrapper"><img src="img/ico-sparkles.svg" alt="ico-sparkles" width="56" height="56"></div>
             <h3>Eng sara kitoblar</h3>
             <p class="why-akademnashr-p">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
           </li>
           <li>
-            <img src="img/ico-lightning-bolt.svg" alt="ico-lightning-bolt" width="56" height="56">
+            <div class="why-akdemnshar-icon-wrapper"><img src="img/ico-lightning-bolt.svg" alt="ico-lightning-bolt" width="56" height="56"></div>
             <h3>Tez yetkazib berish</h3>
             <p class="why-akademnashr-p">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
           </li>
@@ -57,7 +59,7 @@
         <div class="texts">
           <h2 class="sale-h2">Bolalar kitoblari uchunajoyib aksiya!</h2>
             <p class="sale-p">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-            <p class="sale-p">Aksiyadagi eng katta to’plamda 50 ta kitobni 350 ming so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+            <p class="sale-p">Aksiyadagi eng katta to’plamda <span class="span">50 ta kitob</span> ni <span class="span">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
             <a href="#" class="order">Buyurtma berish</a>
           </div>
           <img src="img/sale-img.jpg" alt="aksiyadagi kitoblar" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" width="440" height="440">
@@ -86,7 +88,7 @@
           </li>
         </ul>
       </div>
-      <hr>
+      <hr class="hr">
        <div>
         <section>
           <ul>

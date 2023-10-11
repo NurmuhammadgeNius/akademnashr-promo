@@ -11,6 +11,18 @@ body {
   align-items: center;
 }
 
+.logo {
+  transition: opacity 0.4s ease
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
 ul {
   list-style-type: none;
 }
@@ -35,13 +47,33 @@ h2, h3 {
   letter-spacing: 1px;
   color: black;
   text-decoration: none;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
+
+.nav-link:hover {
+  color: #FF7500;
+}
+
+.nav-link:active {
+  opacity: 0.6;
+}
+
 
 .signin {
   background-color: #FF7500;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  transition: opacity 0.4s ease;
+}
+
+.signin:hover {
+  opacity: 0.8;
+}
+
+.signin:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -134,6 +166,18 @@ h3 {
   align-items: center;
 }
 
+.socials a {
+  color: #252420;
+}
+
+.socials a:hover {
+  color: #FF7500;
+}
+
+.socials a:active {
+  opacity: 0.6;
+}
+
 .site-fotter-bottom-link {
   display: flex;
   justify-content: space-between;
@@ -144,4 +188,14 @@ h3 {
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.fotter-link:hover {
+  color: #FF7500;
+}
+
+.fotter-link:active {
+  opacity: 0.6;
 }

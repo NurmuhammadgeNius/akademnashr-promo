@@ -5,8 +5,16 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
 }
 
+*:focus {
+  outline: 3px dotted #FF7500;
+  outline-offset: 4px;
+}
+
 .site-header {
   display: flex;
+  border-top: 5px solid #FF7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
   justify-content: space-between;
   align-items: center;
 }
@@ -38,6 +46,7 @@ h2, h3 {
 }
 
 .nav-ul {
+  padding: 0;
   display: flex ;
   justify-content: space-between;
 }
@@ -61,7 +70,10 @@ h2, h3 {
 
 
 .signin {
+  display: inline-block;
   background-color: #FF7500;
+  padding: 12px 24px;
+  border-radius:  4px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -77,6 +89,8 @@ h2, h3 {
 }
 
 .hero {
+  /* padding-top: 80px; */
+  padding-bottom: 80px;
   background-color: #252420;
   display: flex;
   justify-content: space-between;
@@ -96,9 +110,14 @@ h2, h3 {
   font-size: 16px;
 }
 
+.hero-img {
+  border-radius: 8px;
+}
+
 .hr {
   width: 80px;
   height: 3px;
+  border: 0;
   background-color: #FF7500;
 }
 
@@ -110,17 +129,32 @@ h2, h3 {
   font-weight: bold;
 }
 
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+  display: inline-block;
+}
+
 .why-akademnashr {
+  width: 440px;
+  line-height: 1.2;
+  font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
   font-size: 72px;
   font-weight: bold;
 }
 
 .why-wrapper {
   display: flex;
+  padding:  0;
   justify-content: center;
 }
 
 .why-akdemnshar-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
@@ -141,9 +175,15 @@ h3 {
 
 .sale {
   background-color: #252420;
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.sale-img {
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 .sale-h2 {
@@ -155,6 +195,12 @@ h3 {
   font-size: 16px;
 }
 
+footer {
+  background-color: #f8f8f8;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
 .fotter-top {
   display: flex;
   justify-content: space-between;
@@ -162,6 +208,7 @@ h3 {
 }
 
 .socials {
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -178,9 +225,20 @@ h3 {
   opacity: 0.6;
 }
 
+.fotter-hr {
+  height: 2px;
+  border: 0;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+
 .site-fotter-bottom-link {
   display: flex;
+  padding: 0;
   justify-content: space-between;
+}
+
+.site-fotter-bottom-link ul {
+  padding: 0;
 }
 
 .fotter-link {

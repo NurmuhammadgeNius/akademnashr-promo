@@ -23,6 +23,10 @@ body {
   transition: opacity 0.4s ease
 }
 
+.logo img {
+    display: block;
+}
+
 .logo:hover {
   opacity: 0.8;
 }

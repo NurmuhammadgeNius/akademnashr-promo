@@ -48,6 +48,8 @@ h2, h3 {
 .nav-ul {
   padding: 0;
   display: flex ;
+  margin: 0;
+  margin-right: 32px;
   justify-content: space-between;
 }
 
@@ -55,9 +57,14 @@ h2, h3 {
   font-size: 16px;
   letter-spacing: 1px;
   color: black;
+  margin-right: 32px;
   text-decoration: none;
   transition: color 0.4s ease,
     opacity 0.4s ease;
+}
+
+.nav-ul:last-child {
+  margin-right: 0;
 }
 
 .nav-link:hover {
@@ -102,11 +109,15 @@ h2, h3 {
 }
 
 .python-book {
+  margin-top: 0;
+  margin-bottom: 24px;
   font-size: 40px;
   font-weight: bold;
 }
 
 .about-pbook {
+  margin-top: 0;
+  margin-bottom: 32px;
   font-size: 16px;
 }
 
@@ -115,6 +126,8 @@ h2, h3 {
 }
 
 .hr {
+  margin: 0;
+  margin-bottom: 40px;
   width: 80px;
   height: 3px;
   border: 0;
@@ -136,6 +149,8 @@ h2, h3 {
 }
 
 .why-akademnashr {
+  margin: 0;
+  margin-bottom: 72px;
   width: 440px;
   line-height: 1.2;
   font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
@@ -147,12 +162,23 @@ h2, h3 {
 .why-wrapper {
   display: flex;
   padding:  0;
-  justify-content: center;
+  margin: 0;
+  /* justify-content: center; */
+}
+
+.features-icon {
+  width: 340px;
+  margin-right: 40px;
+}
+
+.features-icon:last-child {
+  margin-right: 0;
 }
 
 .why-akdemnshar-icon-wrapper {
   display: flex;
   justify-content: center;
+  margin-right: 40px;
   align-items: center;
   border-radius: 50%;
   width: 100px;
@@ -189,10 +215,21 @@ h3 {
 .sale-h2 {
   font-size: 40px;
   font-weight: bold;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .sale-p {
   font-size: 16px;
+  margin-top: 0;
+}
+
+.sale-p:last-child{
+  margin-bottom: 0;
+}
+
+.sale-p-wrapper {
+  margin-bottom: 24px;
 }
 
 footer {
@@ -211,9 +248,19 @@ footer {
   padding: 0;
   display: flex;
   align-items: center;
+  margin: 0;
+}
+
+.socials li {
+  margin-right: 16px; 
+}
+
+.socials li:last-child {
+  margin-right: 0px;
 }
 
 .socials a {
+  display: block;
   color: #252420;
 }
 
@@ -225,7 +272,13 @@ footer {
   opacity: 0.6;
 }
 
+.socials svg {
+  display: block;
+}
+
 .fotter-hr {
+  margin-top: 40px;
+  margin-bottom: 64px;  
   height: 2px;
   border: 0;
   background-color: rgba(37, 36, 32, 0.5);
@@ -234,11 +287,17 @@ footer {
 .site-fotter-bottom-link {
   display: flex;
   padding: 0;
-  justify-content: space-between;
+  margin: 0;
 }
 
 .site-fotter-bottom-link ul {
   padding: 0;
+  margin: 0;
+  margin-right: 68px;
+}
+
+.site-fotter-bottom-link ul:last-child {
+  margin-right: 0;
 }
 
 .fotter-link {

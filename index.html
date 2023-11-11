@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="uz">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akademnashr</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="site-header">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akademnashr</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- HEADER -->
+  
+  <header class="site-header">
+    <div class="site-headers-container container">
       <a class="logo" href="index.html">
         <img src="./img/logo.svg" alt="logo" width="227" height="60">
       </a>
@@ -26,21 +30,27 @@
         </nav>
         <a href="#" class="signin">Ro'yxatdan o'tish</a>
       </div>
-    </header>
-    <main>
-      <section class="hero">
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-container container">
         <div class="texts">
           <hr class="hr">
           <h2 class="python-book">Pythonda dasturlash asoslari</h2>
           <p class="about-pbook">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. <br> Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, <br>ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
           <a href="#" class="signin order">Buyurtma berish</a>
         </div>
-
         <img class="hero-img" src="img/python-book.jpg" alt="python kitob rasm" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
-      </section>
-      <section class="features">
+      </div>
+    </section>
+    
+    <!-- features -->
+    
+    <section class="features">
+      <div class="container">
         <hr class="hr features-hr">
-        <h2 class="why-akademnashr">Nega aynan <br>Akademnashr</h2>
+        <h2 class="why-akademnashr">Nega aynan<br>Akademnashr</h2>
         <ul class="why-wrapper">
           <li class="features-icon">
             <div class="why-akdemnshar-icon-wrapper"><img src="img/ico-cursor-click.svg" alt="kursor" width="56" height="56"></div>
@@ -58,24 +68,36 @@
             <p class="why-akademnashr-p">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
           </li>
         </ul>
-      </section>
-      <section class="sale">
-        <div class="texts">
-          <h2 class="sale-h2">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-            <div class="sale-p-wrapper">
-              <p class="sale-p">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-              <p class="sale-p">Aksiyadagi eng katta to’plamda <span class="span">50 ta kitob</span> ni <span class="span">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-            </div>
-            <a href="#" class="signin order">Buyurtma berish</a>
-          </div>
-          <img class="sale-img" src="img/sale-img.jpg" alt="aksiyadagi kitoblar" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" width="440" height="440">
-        </section>
-      </main>
-    <footer>
+      </div>
+    </section>
+    
+    <!-- sale -->
+    <!-- AKSIYANIKI -->
+    
+    <section class="sale container">
+      <div class="texts">
+        <h2 class="sale-h2">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+        <div class="sale-p-wrapper">
+          <p class="sale-p">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+          <p class="sale-p">Aksiyadagi eng katta to’plamda <span class="span">50 ta kitob</span> ni <span class="span">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        </div>
+        <a href="#" class="signin order">Buyurtma berish</a>
+      </div>
+      <img class="sale-img" src="img/sale-img.jpg" alt="aksiyadagi kitoblar" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" width="440" height="440">
+    </section>
+  </main>
+  
+  <!-- fotter -->
+  
+  <footer>
+    <div class="container">
       <div class="fotter-top">
         <a class="logo" href="index.html">
           <img src="./img/logo.svg" alt="logo" width="227" height="60">
         </a>
+      
+        <!-- socials -->
+      
         <ul class="socials">
           <li>
             <a href="https://t.me/Akademnashr" target="_blank">
@@ -95,7 +117,7 @@
         </ul>
       </div>
       <hr class="fotter-hr">
-       <div>
+      <div>
         <section class="site-fotter-bottom-link">
           <ul>
             <li><a href="index.html" class="fotter-link">Bosh sahifa</a></li>
@@ -123,7 +145,8 @@
             <li><a href="#" class="fotter-link">Maxfiylik nizomi</a></li>
           </ul>
         </section>
-       </div>
-    </footer>
-  </body>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
